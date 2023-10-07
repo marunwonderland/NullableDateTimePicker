@@ -34,6 +34,7 @@ namespace NullableDateTimePicker
     /// control with a ReadOnly mode as well as with the possibility to show empty values (null values).
     /// </summary>
     [ComVisible(false)]
+    [ToolboxItem(true)]
     public class NullableDateTimePicker : System.Windows.Forms.DateTimePicker
     {
         [StructLayout(LayoutKind.Sequential)]
