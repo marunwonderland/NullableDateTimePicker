@@ -10,9 +10,21 @@
 
   <PropertyGroup>
       <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+      <Title>NullableDateTimePicker</Title>
+      <Company>MarunWonderland</Company>
+      <Authors>pecoraio &amp; MarunWonderland</Authors>
+      <Description>This is a DateTimePicker that allows you to select no date(value is null).
+
+Keyboard input automatically moves the cursor.</Description>
+      <Copyright>Copyright 2023 MarunWonderlnad All rights reserved.</Copyright>
+      <PackageProjectUrl>https://github.com/marunwonderland/NullableDateTimePicker</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Windows.Compatibility" Version="2.0.1" />
+    <PackageReference Include="NuGet.CommandLine" Version="6.7.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 </Project>
